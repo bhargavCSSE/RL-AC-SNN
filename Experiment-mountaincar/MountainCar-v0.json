@@ -1,0 +1,30 @@
+{
+    "All":
+    {
+        "seed": 12,
+        "write_report": true,
+        "report_file": "report.json",
+        "overwrite_files": true,
+        "prefix": "mc"
+    },
+    "Env":
+    {
+        "env": "MountainCar-v0",
+        "env_params": {"max_episode_steps": 10000},
+        "initial_reward": -1.0,
+        "final_reward": -0.4,
+        "render": true,
+        "monitor": true,
+        "monitor_dir": "./",
+        "monitor_args":
+        {
+            "write_upon_reset": true,
+            "video_callable": false
+        }
+    },
+    "EnvRunner":
+    {
+        "update_interval": 0.02,
+        "inter_trial_duration": 0.4
+    }
+}
