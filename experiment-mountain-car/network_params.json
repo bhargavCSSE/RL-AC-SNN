@@ -6,7 +6,7 @@
 
     "kernel_params":
     {
-        "simtime": 400.0,
+        "simtime": 2500.0,
         "dt": 1.0,
         "delay": 1.0,
         "sigma": 0.0,
