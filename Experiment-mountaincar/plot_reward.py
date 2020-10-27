@@ -13,8 +13,8 @@ import plot_config
 params = {
     'report_files': 'mc/openaigym.episode_batch.0.*.stats.json',
     'env_image': 'mountain_car.png',
-    'episodes': 70,
-    'xlim': [0, 70],
+    'episodes': 15,
+    'xlim': [0, 15],
     'ylim': [-6500, 100],
     'xlabel': 'Episode',
     'ylabel': 'Reward',
