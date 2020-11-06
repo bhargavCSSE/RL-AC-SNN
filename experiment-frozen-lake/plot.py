@@ -202,6 +202,6 @@ def create_2x2_panel_plot():
     helper.panel2x2(params['figname_reward'], params['figname_value_policy'], params['figname'], plot_config.double_figure_size)
 
 plot_reward(params)
-plot_weights(params)
-plot_value_policy_maps(params)
-create_2x2_panel_plot()
+# plot_weights(params)
+# plot_value_policy_maps(params)
+# create_2x2_panel_plot()

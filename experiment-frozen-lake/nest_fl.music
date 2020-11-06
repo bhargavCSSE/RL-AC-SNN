@@ -24,7 +24,7 @@ rtf=2.0
   grid_positions_filename=grid_pos.json
 [nest]
   binary=../actor_critic_network/network.py
-  args=
+  args= -p network_params.json
   np=1
 [argmax]
   binary=argmax_adapter
